@@ -8,6 +8,7 @@
         <section>
             <title>Local vs remote repository</title>
             <p>The local repository is on your machine. The remote repository is hosted on <keyword keyref="product"/>.</p>
+            <p>Changes must be committed locally before they can be pushed to the remote repository.</p>
         </section>
         <section>
             <title>Default branch: <codeph>main</codeph></title>

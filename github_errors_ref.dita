@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="github_errors_ref">
+    <title>Reference: common GitHub errors</title>
+    <shortdesc>Frequent error messages during Git operations and how to resolve them.</shortdesc>
+    <refbody>
+        <section>
+            <title>Errors and solutions</title>
+            <simpletable>
+                <sthead>
+                    <stentry>Error message</stentry>
+                    <stentry>Probable cause</stentry>
+                    <stentry>Solution</stentry>
+                </sthead>
+                <strow>
+                    <stentry><codeph>! [rejected] main -> main (fetch first)</codeph></stentry>
+                    <stentry>The remote branch has commits you don’t have locally.</stentry>
+                    <stentry>Run <codeph>git pull origin main</codeph>, resolve conflicts, then <codeph>git push</codeph>.</stentry>
+                </strow>
+                <strow>
+                    <stentry><codeph>fatal: not a git repository</codeph></stentry>
+                    <stentry>You are not inside a Git repository.</stentry>
+                    <stentry>Check the directory: <codeph>git init</codeph> or <codeph>git clone</codeph> first.</stentry>
+                </strow>
+                <strow>
+                    <stentry><codeph>Permission denied (publickey)</codeph></stentry>
+                    <stentry>Missing SSH key or not associated with your GitHub account.</stentry>
+                    <stentry>Add an SSH key in GitHub settings or use HTTPS.</stentry>
+                </strow>
+            </simpletable>
+        </section>
+    </refbody>
+</reference>

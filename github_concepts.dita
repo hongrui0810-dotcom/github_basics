@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="github_concepts">
+    <title>Concepts of basic <keyword keyref="product"/> operations</title>
+    <shortdesc>Understanding the repository, the main branch, commit and push.</shortdesc>
+    <conbody>
+        <p>A <keyword keyref="product"/> repository stores the version history of a project.</p>
+        <section>
+            <title>Local vs remote repository</title>
+            <p>The local repository is on your machine. The remote repository is hosted on <keyword keyref="product"/>.</p>
+        </section>
+        <section>
+            <title>Default branch: <codeph>main</codeph></title>
+            <p>The main branch contains the stable version of the project.</p>
+        </section>
+        <section>
+            <title>Important note</title>
+            <p conref="common_reuse.dita#common_reuse/warning_commit"/>
+        </section>
+    </conbody>
+</concept>

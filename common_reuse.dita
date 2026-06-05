@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="common_reuse">
+    <title>Reusable elements</title>
+    <conbody>
+        <p id="warning_commit"> Warning: a local commit is not visible on GitHub until you push it (<codeph>git push</codeph>).</p>
+    </conbody>
+</concept>

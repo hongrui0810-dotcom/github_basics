@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="github_commands_ref">
+    <title>Reference: basic Git commands</title>
+    <shortdesc>Syntax and examples of essential commands for GitHub.</shortdesc>
+    <refbody>
+        <section>
+            <title>Common commands</title>
+            <simpletable>
+                <sthead>
+                    <stentry>Command</stentry>
+                    <stentry>Syntax</stentry>
+                    <stentry>Example</stentry>
+                </sthead>
+                <strow>
+                    <stentry><codeph>clone</codeph></stentry>
+                    <stentry>git clone &lt;url&gt;</stentry>
+                    <stentry>git clone https://github.com/user/repo.git</stentry>
+                </strow>
+                <strow>
+                    <stentry><codeph>add</codeph></stentry>
+                    <stentry>git add &lt;file&gt;</stentry>
+                    <stentry>git add README.md</stentry>
+                </strow>
+                <strow>
+                    <stentry><codeph>commit</codeph></stentry>
+                    <stentry>git commit -m "message"</stentry>
+                    <stentry>git commit -m "fix typo"</stentry>
+                </strow>
+                <strow>
+                    <stentry><codeph>push</codeph></stentry>
+                    <stentry>git push &lt;remote&gt; &lt;branch&gt;</stentry>
+                    <stentry>git push origin main</stentry>
+                </strow>
+                <strow>
+                    <stentry><codeph>pull</codeph></stentry>
+                    <stentry>git pull &lt;remote&gt; &lt;branch&gt;</stentry>
+                    <stentry>git pull origin main</stentry>
+                </strow>
+            </simpletable>
+        </section>
+        <section> 
+            <title>Important note</title>
+            <p conref="common_reuse.dita#common_reuse/warning_commit"/>
+        </section>
+    </refbody>
+</reference>

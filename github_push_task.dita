@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="github_push_task">
+    <title>Perform a commit and push to GitHub</title>
+    <shortdesc>This task explains how to save your changes locally and then send them to the remote repository.</shortdesc>
+    <taskbody>
+        <prereq>Have <keyword keyref="git-client"/> installed and a cloned repository.</prereq>
+        <steps>
+            <step><cmd>Check the status of modified files.</cmd><info><codeph>git status</codeph></info></step>
+            <step><cmd>Add files to the staging area.</cmd><info><codeph>git add .</codeph> (all files) or <codeph>git add filename</codeph></info></step>
+            <step><cmd>Commit with a descriptive message.</cmd><info><codeph>git commit -m "Your message"</codeph></info></step>
+            <step><cmd>Push the commit to the remote main branch.</cmd><info><codeph>git push origin main</codeph></info></step>
+        </steps>
+        <result>Your changes are now visible on <keyword keyref="product"/>.</result>
+        <postreq>Remember to run <codeph>git pull</codeph> before starting work on a shared project.</postreq>
+    </taskbody>
+</task>

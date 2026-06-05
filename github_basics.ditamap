@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="github_basics_map" title="GitHub Basic Operations">
+    <keydef keys="product" href="https://github.com" format="html" scope="external">
+        <topicmeta>
+            <keywords><keyword>GitHub</keyword></keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="git-client" href="https://git-scm.com/" format="html" scope="external">
+        <topicmeta>
+            <keywords><keyword>Git</keyword></keywords>
+        </topicmeta>
+    </keydef>
+    <topicref href="common_reuse.dita" type="concept" processing-role="resource-only"></topicref>
+    <topicref href="github_concepts.dita" type="concept"/>
+    <topicref href="github_push_task.dita" type="task"/>
+    <topicref href="github_commands_ref.dita" type="reference"/>
+    <topicref href="github_errors_ref.dita" type="reference"/>
+</map>
